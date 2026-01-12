@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  color: #fff;
+  padding: 2.5rem 3rem;
+  background-color: rgba(6, 27, 7, 0.9);
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+header a {
+  color: #fff;
+}
+a:-webkit-any-link {
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  text-transform: uppercase;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+.image-forest {
+  background-image: url(https://sb.ecobnb.net/app/uploads/sites/3/2022/04/copertina-1-1170x490.jpg);
+
+  /* background-image: url(https://frank-ventures.github.io/basic-website/assets/tomatoes01.jpg); */
+}
+
+.image-forest {
+  position: relative;
+  background-size: cover;
+  background-position: left;
+  height: 100vh;
+  border-bottom: #fff 2px solid;
+}
+
+.image-sea {
+  background-image: url(https://thumbs.dreamstime.com/b/happy-new-year-concept-lettering-beach-written-text-sea-sunrise-405764622.jpg);
+}
+
+.image-sea {
+  position: relative;
+  background-size: cover;
+  background-position: left;
+  height: 100vh;
+  border-bottom: #fff 2px solid;
+}
+.image-fair {
+  background-image: url(https://news.hull.gov.uk/wp-content/uploads/2024/10/HullFair22023.jpg);
+}
+.image-fair {
+  position: relative;
+  background-size: cover;
+  background-position: left;
+  height: 100vh;
+  border-bottom: #fff 2px solid;
+}
+.meta-post {
+  position: absolute;
+  bottom: 10%;
+  left: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  max-width: 80%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+}
+
+.image-sea a {
+  background-color: rgba(209, 128, 15, 0.9);
+}
+
+.meta-post_tag {
+  text-transform: uppercase;
+  font-weight: 100;
+  opacity: 1;
+  font-size: 1.2rem;
+}
+.meta-post_head {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.meta-post_button {
+  margin-top: 1.2rem;
+  display: inline-block;
+  max-width: 200px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.1rem;
+  opacity: 1;
+  color: #fff;
+  border: 2px solid white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+.image-forest a {
+  background-color: rgba(6, 27, 7, 0.9);
+}
+.image-fair a {
+  background-color: rgb(127, 14, 149);
+}
+#toTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px 18px;
+  font-size: 18px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+#toTop:hover {
+  opacity: 1;
+}
+footer {
+  background: rgb(127, 14, 149);
+  text-align: center;
+  color: #ffffff;
+  padding: 40px;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 10px;
+}
+.social-icons a:hover {
+  transform: scale(1.9);
+  color: #00ff00;
+}

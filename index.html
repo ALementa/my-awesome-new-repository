@@ -4,8 +4,69 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
   <body>
-    <h1>Go to GitHub</h1>
+    <header id="top">
+      <h1>Time to Go</h1>
+      <nav>
+        <a href="#forest">Home</a>
+        <a href="#about">About us</a>
+        <a href="#forest">Forest</a>
+        <a href="#sea">Sea</a>
+        <a href="#fair">Fair</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- <audio id="bg" autoplay loop muted> -->
+      <audio id="bg">
+        <source src="audio/background.mp3" type="audio/mpeg" />
+        <!-- <source src="audio/background.ogg" type="audio/ogg" /> -->
+      </audio>
+      <div id="forest" class="image-forest">
+        <div class="meta-post">
+          <h2 class="meta-post_tag">Fresh clean forest air!</h2>
+          <h1 class="meta-post_head">Do you like forest?</h1>
+          <a href="#" class="meta-post_button">Go with us</a>
+        </div>
+      </div>
+      <div id="sea" class="image-sea">
+        <div class="meta-post">
+          <h2 class="meta-post_tag">Warm sea, sea breeze and bright sun!</h2>
+          <h1 class="meta-post_head">Do you like sunbath?</h1>
+          <a href="#" class="meta-post_button">Book now!</a>
+        </div>
+      </div>
+      <div id="fair" class="image-fair">
+        <div class="meta-post">
+          <h2 class="meta-post_tag">Fun, light, joy!</h2>
+          <h1 class="meta-post_head">Do you like fun?</h1>
+          <a href="#" class="meta-post_button">Time to have fun!</a>
+        </div>
+      </div>
+      <button id="toTop">↑Back to top↑</button>
+    </main>
+    <footer>
+      <p>Follow us:</p>
+      <div class="social-icons">
+        <a href="https://facebook.com" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+
+      <p>Made with love by OL © 2025</p>
+    </footer>
   </body>
 </html>
